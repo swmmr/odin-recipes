@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(250, 224, 137);
+}
+
+h1, h2, h3, p {
+    text-align: center;
+}
+
+h4 {
+    margin-left: 5%;
+    margin-bottom: 5px;
+}
+
+.glossary {
+    display: flex;
+    justify-content: center;
+}
+
+.glossary ul {
+    font-size: 18px;
+    font-weight: bold;
+    list-style: none;
+}
+
+.glossary ul li {
+    display: block;
+    border: solid black;
+    padding: 5px;
+    border-radius: 45px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: rgb(219, 181, 255);
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+}
+
+.list-container {
+    border: solid black;
+    background-color: pink;
+}
